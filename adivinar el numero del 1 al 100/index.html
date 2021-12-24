@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Adivina el número</title>
+  </head>
+  <body>
+    <h1>Juego de adivinar el número</h1>
+          <p class="parrafo">
+            Adivina el número al azar entre 1 y 100, tienes 10 intentos.
+          </p>
+          <div class="formulario">
+            <label for="txtNum" class="etiqueta">Ingrese un número: </label>
+            <input type="text" id="txtNum" class="txtNum">
+            <input type="submit" value="Hacer un intento" class="btnAdivina">
+          </div>
+          <div class="resultados">
+            <p class="intentos"></p>
+            <p class="nIntentos"></p>
+            <p class="ultResult"></p>
+            <p class="masOMenos"></p>
+          </div>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

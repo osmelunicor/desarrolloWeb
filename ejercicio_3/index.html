@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio_1</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Llena los siguientes datos:</h1>
+        <div id="content">
+            <table id="tablaform">
+                <form action="">
+                    <tr>
+                        <td>
+                            <label for="numero">Num max 10:</label>
+                        </td>
+                        <td>
+                            <input type="number" max="9999999999">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="texto">Text max 40:</label>
+                        </td>
+                        <td>
+                            <input type="text" maxlength="40">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="texto">Text max 40:</label>
+                        </td>
+                        <td>
+                            <input type="text" maxlength="40">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="textarea">Text mult max 200:</label>
+                        </td>
+                        <td>
+                            <textarea name="textarea" id="textarea" cols="30" rows="3" maxlength="200"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="fecha">Fecha:</label>
+                        </td>
+                        <td>
+                            <input type="date">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="hora">Hora:</label>
+                        </td>
+                        <td>
+                            <input type="time">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="checkbox">Una o varias casillas:</label>
+                        </td>
+                        <td>
+                            <input type="checkbox"><label for="check1">opcion 1</label><br>
+                            <input type="checkbox"><label for="check2">opcion 2</label><br>
+                            <input type="checkbox"><label for="check3">opcion 3</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="radio">Una casilla:</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="radioopt"><label for="radio1">opcion 1</label><br>
+                            <input type="radio" name="radioopt"><label for="radio2">opcion 2</label><br>
+                            <input type="radio" name="radioopt"><label for="radio3">opcion 3</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="color">Color:</label>
+                        </td>
+                        <td>
+                            <input type="color">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email:</label>
+                        </td>
+                        <td>
+                            <input type="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="select">Una opción:</label>
+                        </td>
+                        <td>
+                            <select name="select" id="select">
+                                <option value="opt1">opcion1</option>
+                                <option value="opt2">opcion2</option>
+                                <option value="opt3">opcion3</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="selectmult">Una o varias opciones:</label>
+                        </td>
+                        <td>
+                            <select name="selectmult" id="selectmult" multiple size="3">
+                                <option value="opt1">opcion1</option>
+                                <option value="opt2">opcion2</option>
+                                <option value="opt3">opcion3</option>
+                                <option value="opt1">opcion4</option>
+                                <option value="opt2">opcion5</option>
+                                <option value="opt3">opcion6</option>
+                            </select>
+                        </td>
+                    </tr>
+                </form>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

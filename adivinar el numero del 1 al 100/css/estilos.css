@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+body{
+    font-family: 'Shizuru', cursive;
+    font-family: 'Open Sans', sans-serif;
+    width: 40%;
+    margin: 10px auto;
+    text-align: center;
+    border: 1px grey solid;
+    border-radius: 5px;
+    padding: 10px;
+    padding-top: 0;
+}
+
+.ultResult{
+    border-radius: 5px;
+    color: white;
+    width: fit-content;
+    margin: auto;
+    padding: 5px;
+}
+
